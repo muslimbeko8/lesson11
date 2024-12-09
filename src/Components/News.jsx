@@ -67,7 +67,7 @@ function News() {
               <button
                 type="button"
                 onClick={() => handleEdit(news)}
-                className="bg-yellow-500 text-white px-3 py-1 rounded-lg hover:bg-yellow-600"
+                className="bg-lime-500 text-white px-3 py-1 rounded-l"
               >
                 Edit
               </button>

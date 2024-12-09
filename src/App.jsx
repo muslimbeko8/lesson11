@@ -1,13 +1,13 @@
-import { Toaster } from "sonner";
-import TodoParent from "./components/TodoParent";
+import React from "react";
+import News from "./Components/News";
 
-export default function App() {
+function App() {
   return (
-    <>
-      <main className="grow">
-        <TodoParent></TodoParent>
-      </main>
-      <Toaster position="top-center" richColors />
-    </>
+    <div className="App">
+      <h1 style={{ textAlign: "center", margin: "20px 0" }}>News Management</h1>
+      <News />
+    </div>
   );
 }
+
+export default App;
